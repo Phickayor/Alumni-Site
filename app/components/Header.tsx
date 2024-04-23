@@ -33,7 +33,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <ul className="mx-auto w-9/12 text-[#666666] font-semibold flex justify-around [&>*]:self-center py-8 text-sm">
+      <ul className="mx-auto w-9/12 text-[#666666] font-semibold flex justify-around [&>*]:self-center py-4 text-sm xl:text-md">
         <li className="text-black">HOME</li>
         <li className="inline-flex [&>*]:self-center">
           ABOUT &nbsp; <FaAngleDown />
