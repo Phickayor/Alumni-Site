@@ -3,6 +3,7 @@ import Articles from "./components/Articles";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Motto from "./components/Motto";
+import Structure from "./components/Structure";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Articles/>
       <About/>
       <Motto/>
+      <Structure/>
     </main>
   );
 }
