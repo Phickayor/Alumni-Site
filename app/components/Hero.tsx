@@ -13,7 +13,7 @@ function Hero() {
             Welcome to new alumni
           </label>
           <h1 className="text-5xl xl:text-6xl font-bold">Welcome Home</h1>
-          <p className="font-petrona ">
+          <p className="font-petrona">
             Synergistically implement alternative webreadiness vis-a-vis
             resource maximizing vortals. Progressively pursue high-payoff
             leadership.

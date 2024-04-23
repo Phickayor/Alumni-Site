@@ -8,7 +8,7 @@ import {
 import { FaAngleDown } from "react-icons/fa";
 const Header = () => {
   return (
-    <div className="text-white w-full">
+    <div className="text-white w-full z-30">
       <div className="bg-lightBlue mx-auto px-24 flex justify-end gap-8 py-4 [&>*]:cursor-pointer">
         <li>Our Donors</li>
         <li>Notice</li>
@@ -33,26 +33,27 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <ul className="mx-auto w-9/12 text-[#666666] font-semibold flex justify-around [&>*]:self-center py-4 text-sm xl:text-md">
-        <li className="text-black">HOME</li>
-        <li className="inline-flex [&>*]:self-center">
-          ABOUT &nbsp; <FaAngleDown />
-        </li>
-        <li className="inline-flex [&>*]:self-center">
-          DIRECTORY &nbsp; <FaAngleDown />
-        </li>
-        <li>FEEDBACK</li>
-        <li>EVENTS</li>
-        <li>NEWS</li>
-        <li className="inline-flex [&>*]:self-center">
-          RESOURCES &nbsp; <FaAngleDown />
-        </li>
-        <li>LINKS</li>
-        <div className="flex gap-5 self-center [&>*]:self-center text-xl">
-          <BiSearch />
-          <BiMenu />
-        </div>
-      </ul>
+        <ul className="sticky top-0 bg-white mx-auto w-9/12 text-[#666666] font-semibold flex justify-around [&>*]:self-center py-4 text-sm xl:text-md">
+          <li className="text-black">HOME</li>
+          <li className="inline-flex [&>*]:self-center">
+            ABOUT &nbsp; <FaAngleDown />
+          </li>
+          <li className="inline-flex [&>*]:self-center">
+            DIRECTORY &nbsp; <FaAngleDown />
+          </li>
+          <li>FEEDBACK</li>
+          <li>EVENTS</li>
+          <li>NEWS</li>
+          <li className="inline-flex [&>*]:self-center">
+            RESOURCES &nbsp; <FaAngleDown />
+          </li>
+          <li>LINKS</li>
+          <div className="flex gap-5 self-center [&>*]:self-center text-xl">
+            <BiSearch />
+            <BiMenu />
+          </div>
+        </ul>
+
     </div>
   );
 };
