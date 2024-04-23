@@ -5,7 +5,7 @@ function About() {
     <div className="bg-offWhite py-14">
       <div className="mx-auto w-10/12 flex justify-between text-secText">
         <div className="flex flex-col justify-center gap-8 w-full">
-          <h1 className="text-primaryHeader text-3xl xl:text-4xl font-bold">
+          <h1 className="text-primaryHeader font-cabin text-3xl xl:text-4xl font-bold">
             Welcome to New Alumni Website
           </h1>
           <p className="font-petrona xl:text-lg">
@@ -24,7 +24,7 @@ function About() {
           <img src="/images/about-hero.png" alt="" className="object-cover" />
           <div className="space-y-3 text-center">
             <h1 className="font-bold text-primaryHeader text-2xl">Moses Benjamin</h1>
-            <label>President</label>
+            <label className="font-petrona">President</label>
           </div>
         </div>
       </div>
