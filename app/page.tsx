@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Articles from "./components/Articles";
 import Blog from "./components/Blog";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Motto from "./components/Motto";
@@ -16,6 +17,7 @@ export default function Home() {
       <Motto/>
       <Structure/>
       <Blog/>
+      <Footer/>
     </main>
   );
 }
